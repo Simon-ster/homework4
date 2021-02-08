@@ -9,8 +9,7 @@ def calculate(elements):
             sum += i
         return sum / len(elements)
     except TypeError:
-        raise TypeError
-        print("Wrong Type")
+        return None
 
 
 if __name__ == "__main__":
